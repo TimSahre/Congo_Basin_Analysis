@@ -1,0 +1,16 @@
+name: congo_basin_analysis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - geopandas
+  - pandas
+  - matplotlib
+  - contextily
+  - seaborn
+  - jupyterlab
+  - numpy
+  - fiona
+  - shapely
+  - pyproj
+  - descartes
