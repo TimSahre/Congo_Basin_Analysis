@@ -9,11 +9,13 @@ This project focuses on analyzing biodiversity in the Congo Basin using geospati
 ## **Dataset Description**
 - **MAMMALS**  
   The IUCN Digital Distribution Maps for Mammals contain spatial and attribute information about mammal species, including their geographic ranges.  
-  **Link:** [MAMMALS Dataset](https://drive.google.com/drive/folders/1fLYhp8MD0JtkRMrnQsHBjKrf3tZ36AlT?usp=drive_link)
+  **Link (Project Data):** [MAMMALS Dataset](https://drive.google.com/drive/folders/1fLYhp8MD0JtkRMrnQsHBjKrf3tZ36AlT?usp=drive_link)  
+  **Original Source:** [IUCN Red List Spatial Data](https://www.iucnredlist.org/resources/spatial-data-download)
 
 - **ne_10m_admin_0_countries**  
   This dataset provides administrative boundaries at the country level, used for background visualization.  
-  **Link:** [ne_10m_admin_0_countries Dataset](https://drive.google.com/drive/folders/1yFxOX_BxAXtBWo-ix6Qn8xCYa0E2JGRf?usp=drive_link)
+  **Link (Project Data):** [ne_10m_admin_0_countries Dataset](https://drive.google.com/drive/folders/1yFxOX_BxAXtBWo-ix6Qn8xCYa0E2JGRf?usp=drive_link)  
+  **Original Source:** [Natural Earth Data](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/)
 
 ---
 
@@ -38,21 +40,9 @@ To run the project, ensure you have set up a suitable Python environment:
 
 ---
 
-## **Notebook Details**
-The Jupyter Notebook **`Congo_Basin_Analysis.ipynb`** includes the following sections:
-
-1. **Data Import:**  
-   Loading the shapefiles and performing an initial inspection of the data structure.
-
-2. **Projection:**  
-   Transforming the data to the Mollweide projection to minimize area distortions.
-
-3. **Visualization:**  
-   Creating maps to depict the habitats of key wildlife species in the Congo Basin, including:
-   - Overlaying species distributions with country boundaries.
-   - Generating context maps with background data (e.g., country boundaries).
-
-4. **Analysis:**  
-   Identifying critical areas for conservation based on the geographic distribution of species.
+## **Key Features**
+- **Data Filtering and Visualization**: Large datasets are efficiently filtered to focus the analysis on relevant species and regions, emphasizing the importance of data preparation for efficient processing.
+- **Habitat Mapping**: Species habitats are displayed in distinct colors to highlight ecological patterns and relationships.
+- **Actionable Insights**: Demonstrates how efficient data filtering and analysis techniques can contribute to conservation planning and biodiversity research.
 
 ---
